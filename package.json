@@ -1,0 +1,22 @@
+{
+  "name": "repetto-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Repetto editorial website, from the opening through Balletwear.",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/js/app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.3.6"
+  }
+}

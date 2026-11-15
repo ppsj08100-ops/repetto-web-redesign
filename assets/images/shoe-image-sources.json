@@ -1,0 +1,148 @@
+{
+  "verified": "2026-11-10",
+  "processing": "Native official JPEGs with CSS alpha masks; no generative edits or pixel enlargement.",
+  "images": [
+    {
+      "index": 1,
+      "file": "shop-01-hq.jpg",
+      "url": "https://www.repetto.kr/data/productImages/a/5/RP-V4109VE899.jpg",
+      "width": 894,
+      "height": 894,
+      "fit": {
+        "widthPercent": 100,
+        "heightPercent": 100,
+        "leftPercent": 0,
+        "topPercent": 0
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 2,
+      "file": "shop-02-image82.png",
+      "width": 490,
+      "height": 490,
+      "status": "original retained; no matching higher-resolution original found"
+    },
+    {
+      "index": 3,
+      "file": "shop-03-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/files/V4255V-410_P1.jpg",
+      "width": 2000,
+      "height": 2500,
+      "fit": {
+        "widthPercent": 100.498609,
+        "heightPercent": 125.623261,
+        "leftPercent": 0.192138,
+        "topPercent": -16.311224
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 4,
+      "file": "shop-04-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/files/V511V-550-P1_68b0c84c-ed35-493b-99f7-36d58ba55d71.jpg?v=1719308735",
+      "width": 2000,
+      "height": 2500,
+      "fit": {
+        "widthPercent": 100,
+        "heightPercent": 100,
+        "leftPercent": 0,
+        "topPercent": 0
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 5,
+      "file": "shop-05-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/files/V4214VED-1334-P1.jpg",
+      "width": 2000,
+      "height": 2500,
+      "fit": {
+        "widthPercent": 100,
+        "heightPercent": 100,
+        "leftPercent": 0,
+        "topPercent": 0
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 6,
+      "file": "shop-06-image204.png",
+      "width": 960,
+      "height": 1200,
+      "status": "original retained; larger official photo uses a different camera angle"
+    },
+    {
+      "index": 7,
+      "file": "shop-07-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/files/V4183JEANEYLT-851-P1.jpg",
+      "width": 2000,
+      "height": 2500,
+      "fit": {
+        "widthPercent": 100.331284,
+        "heightPercent": 125.414105,
+        "leftPercent": -0.238511,
+        "topPercent": -16.275536
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 8,
+      "file": "shop-08-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/products/v072r-050-p1_3.jpg?v=1703258113",
+      "width": 1800,
+      "height": 2250,
+      "fit": {
+        "widthPercent": 102.015251,
+        "heightPercent": 127.519064,
+        "leftPercent": -1.213387,
+        "topPercent": -8.434645
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 9,
+      "file": "shop-09-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/files/v4163ttch-899-p1.jpg?v=1765285597",
+      "width": 1800,
+      "height": 2250,
+      "fit": {
+        "widthPercent": 75.473024,
+        "heightPercent": 94.34128,
+        "leftPercent": 13.358378,
+        "topPercent": 7.908267
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    },
+    {
+      "index": 10,
+      "file": "shop-10-hq.jpg",
+      "url": "https://repetto.com/cdn/shop/files/V4211-x-P1.jpg?v=1718370316",
+      "width": 2000,
+      "height": 2500,
+      "fit": {
+        "widthPercent": 100.424502,
+        "heightPercent": 125.530627,
+        "leftPercent": -0.595616,
+        "topPercent": -16.804268
+      },
+      "status": "official native source; original raster pixels unchanged",
+      "mask": "existing original PNG alpha",
+      "note": "aligned to existing product composition"
+    }
+  ]
+}

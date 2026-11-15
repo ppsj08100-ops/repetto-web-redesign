@@ -1,0 +1,180 @@
+.section-savoir-faire {
+  height: auto;
+  padding-top: calc(342 * var(--u));
+}
+.savoir-pin { position: relative; }
+.savoir-title {
+  width: calc(795 * var(--u));
+  margin-left: calc(563 * var(--u)) !important;
+  font-family: var(--font-display);
+  font-size: calc(310 * var(--u));
+  font-weight: 500;
+  line-height: .9;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+.savoir-title span { display: block; }
+.savoir-title span:last-child { padding-left: .508em; }
+.savoir-viewport {
+  width: 100%;
+  height: calc(1143 * var(--u));
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  cursor: grab;
+  overscroll-behavior-x: contain;
+}
+.savoir-viewport::-webkit-scrollbar { display: none; }
+.savoir-viewport.is-dragging { cursor: grabbing; scroll-snap-type: none; user-select: none; }
+.savoir-track { display: flex; min-height: 100%; }
+.savoir-story {
+  position: relative;
+  display: grid;
+  grid-template-columns: calc(482 * var(--u)) calc(487.711 * var(--u)) calc(209.289 * var(--u)) calc(382 * var(--u));
+  align-items: center;
+  flex: 0 0 100%;
+  min-width: 0;
+  height: calc(1143 * var(--u));
+  padding-left: calc(234 * var(--u));
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.savoir-name {
+  grid-column: 1;
+  color: #323232;
+  font-family: var(--font-display);
+  font-size: calc(96 * var(--u));
+  font-weight: 400;
+  line-height: calc(116 * var(--u));
+  transform: translateY(calc(.5 * var(--u)));
+  white-space: nowrap;
+}
+.savoir-stack {
+  position: relative;
+  grid-column: 2;
+  width: calc(487.711 * var(--u));
+  aspect-ratio: 487.711 / 644.23;
+  transform: translateY(calc(-.385 * var(--u)));
+  pointer-events: none;
+}
+.savoir-card { position: absolute; overflow: hidden; }
+.savoir-card-back { left: 9.813189%; top: 4.540304%; width: 80.505668%; height: 90.938174%; background: #da6363; }
+.savoir-middle-slot { position: absolute; inset: 0; display: grid; place-items: center; }
+.savoir-card-middle { position: relative; width: 80.769349%; height: 90.934759%; background: white; transform: rotate(9.78deg); }
+.savoir-middle-image { position: absolute; }
+.savoir-card-front { left: 18.445350%; top: 10.455893%; width: 64.059248%; height: 79.106530%; background: #d1d9f8; }
+.savoir-card-image { position: absolute; display: block; max-width: none; object-fit: cover; pointer-events: none; }
+.savoir-copy { grid-column: 4; width: calc(382 * var(--u)); color: #000; }
+.savoir-copy-atelier { width: calc(302 * var(--u)); }
+.savoir-location {
+  font-family: var(--font-mono);
+  font-size: calc(16 * var(--u));
+  font-weight: 500;
+  line-height: calc(14 * var(--u));
+  letter-spacing: .02em;
+}
+.savoir-heading {
+  margin: calc(22 * var(--u)) 0 0;
+  font-family: var(--font-ko);
+  font-size: calc(40 * var(--u));
+  font-weight: 400;
+  line-height: .9;
+  letter-spacing: .02em;
+}
+.savoir-description {
+  margin-top: calc(13 * var(--u)) !important;
+  font-family: var(--font-ko);
+  font-size: calc(20 * var(--u));
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .02em;
+}
+.savoir-navigation {
+  position: absolute;
+  left: calc(256 * var(--u));
+  right: calc(256 * var(--u));
+  bottom: calc(72 * var(--u));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.savoir-buttons { display: flex; gap: 24px; }
+.savoir-buttons button { min-width: 44px; min-height: 36px; font: 500 14px var(--font-poppins); letter-spacing: .07em; }
+.savoir-buttons button:disabled { color: var(--ink); opacity: .35; cursor: default; }
+
+/* A native vertical runway drives one pinned composition, without capturing the wheel. */
+.savoir-scroll.is-scroll-ready { height: calc(100svh + var(--savoir-travel, 0px)); }
+.is-scroll-ready .savoir-pin { position: sticky; top: 0; height: 100svh; overflow: clip; }
+.is-scroll-ready .savoir-viewport { height: 100%; overflow: visible; scroll-snap-type: none; cursor: default; touch-action: pan-y pinch-zoom; }
+.is-scroll-ready .savoir-viewport:focus-visible { outline-offset: -8px; }
+.is-scroll-ready .savoir-track { position: relative; display: block; height: 100%; }
+.is-scroll-ready .savoir-story { position: absolute; inset: 0; height: 100%; pointer-events: none; }
+.is-scroll-ready .savoir-story:nth-child(1) { z-index: 3; }
+.is-scroll-ready .savoir-story:nth-child(2) { z-index: 2; }
+.is-scroll-ready .savoir-story:nth-child(3) { z-index: 1; }
+.is-scroll-ready .savoir-stack {
+  justify-self: center;
+  width: min(calc(487.711 * var(--u)), calc((100svh - 180px) * .75703));
+  opacity: var(--stack-opacity, 0);
+  transform: translate3d(var(--stack-x, 0px), calc(var(--stack-y, 0px) - .385 * var(--u)), 0) rotate(var(--stack-turn, 0deg)) scale(var(--stack-scale, 1));
+}
+.is-scroll-ready .savoir-name { opacity: var(--name-opacity, 0); translate: 0 var(--name-shift, 0px); }
+.is-scroll-ready .savoir-copy { opacity: var(--copy-opacity, 0); translate: 0 var(--copy-shift, 0px); }
+.is-scroll-ready .savoir-card {
+  transform: translate3d(var(--fly-x, 0px), var(--fly-y, 0px), 0) rotate(calc(var(--card-rotation, 0deg) + var(--fly-turn, 0deg))) scale(var(--fly-scale, 1));
+}
+.is-scroll-ready .savoir-card-middle { --card-rotation: 9.78deg; }
+.is-scroll-ready .savoir-card.is-flying { will-change: transform; }
+.is-scroll-ready .savoir-navigation { z-index: 4; }
+
+/* Reduced motion and short landscape screens keep all three stories in normal flow. */
+.savoir-scroll.is-static .savoir-viewport { height: auto; overflow: visible; cursor: default; }
+.savoir-scroll.is-static .savoir-track { display: block; }
+.savoir-scroll.is-static .savoir-navigation { position: relative; inset: auto; margin: 0 calc(256 * var(--u)) 48px; }
+
+@media (max-width: 1023px) {
+  .section-savoir-faire { height: auto; padding-top: 72px; }
+  .savoir-title { width: max-content; max-width: 100%; margin: 0 auto !important; font-size: clamp(100px, 20vw, 180px); }
+  .savoir-viewport { height: auto; }
+  .savoir-story { display: flex; flex-direction: column; align-items: center; gap: 30px; height: auto; padding: 48px 24px 110px; }
+  .savoir-name { font-size: clamp(60px, 8vw, 80px); line-height: 1.1; transform: none; }
+  .savoir-stack { width: min(100%, 415px); transform: none; }
+  .savoir-copy, .savoir-copy-atelier { width: min(100%, 382px); }
+  .savoir-location { font-size: 11px; line-height: 1.3; }
+  .savoir-heading { margin-top: 14px; font-size: 26px; line-height: 1.2; }
+  .savoir-description { margin-top: 12px !important; font-size: 14px; line-height: 1.6; }
+  .savoir-description br { display: none; }
+  .savoir-navigation { left: 24px; right: 24px; bottom: 32px; }
+  .savoir-buttons { gap: 20px; }
+  .savoir-buttons button { font-size: 12px; min-height: 40px; }
+
+  .is-scroll-ready .savoir-story {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    align-content: center;
+    justify-items: center;
+    gap: 18px;
+    padding: 28px 24px 90px;
+  }
+  .is-scroll-ready .savoir-name { grid-column: 1; font-size: clamp(42px, 7svh, 68px); line-height: 1; }
+  .is-scroll-ready .savoir-stack {
+    grid-column: 1;
+    width: auto;
+    height: min(100%, 49svh, 548px);
+    max-width: 100%;
+    align-self: center;
+  }
+  .is-scroll-ready .savoir-copy { grid-column: 1; width: min(100%, 382px); }
+  .is-scroll-ready .savoir-heading { font-size: 24px; }
+  .is-scroll-ready .savoir-description { font-size: 13px; }
+  .is-scroll-ready .savoir-navigation { right: 88px; bottom: 24px; }
+  .savoir-scroll.is-static .savoir-navigation { margin: 0 88px 32px 24px; }
+}
+
+@media (max-width: 600px) {
+  .is-scroll-ready .savoir-story { gap: 14px; padding: 24px 24px 80px; }
+  .is-scroll-ready .savoir-heading { margin-top: 10px; font-size: 22px; }
+  .is-scroll-ready .savoir-description { margin-top: 8px !important; font-size: 12px; }
+}

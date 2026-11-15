@@ -1,0 +1,473 @@
+{
+  "figmaFileKey": "Xp7ykV2Wn7lnueIo1fhhMl",
+  "assets": [
+    {
+      "variable": "imgImage227",
+      "section": "639:365",
+      "path": "assets/images/hero-02.png",
+      "node": "639:597",
+      "role": "Hero 02",
+      "design": [
+        1119,
+        1785
+      ],
+      "source": [
+        993,
+        1583
+      ]
+    },
+    {
+      "variable": "imgImage228",
+      "section": "639:365",
+      "path": "assets/images/hero-04.png",
+      "node": "639:600",
+      "role": "Hero 04",
+      "design": [
+        1104,
+        1757
+      ],
+      "source": [
+        994,
+        1583
+      ]
+    },
+    {
+      "variable": "imgImage226",
+      "section": "639:365",
+      "path": "assets/images/hero-03.png",
+      "node": "639:594",
+      "role": "Hero 03",
+      "design": [
+        1102.148,
+        1757
+      ],
+      "source": [
+        993,
+        1583
+      ]
+    },
+    {
+      "variable": "imgImage146",
+      "section": "639:365",
+      "path": "assets/images/hero-01.png",
+      "node": "639:378",
+      "role": "Hero 01",
+      "design": [
+        1102,
+        1753
+      ],
+      "source": [
+        994,
+        1582
+      ]
+    },
+    {
+      "variable": "imgImage232",
+      "section": "639:332",
+      "path": "assets/images/shop-10-image232.png",
+      "node": "639:615",
+      "role": "Shop product 10",
+      "design": [
+        763,
+        763
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "variable": "imgImage84",
+      "section": "639:332",
+      "path": "assets/images/shop-01-image84.png",
+      "node": "639:338",
+      "role": "Shop product 01",
+      "design": [
+        909,
+        909
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "variable": "imgImage82",
+      "section": "639:332",
+      "path": "assets/images/shop-02-image82.png",
+      "node": "639:340",
+      "role": "Shop product 02",
+      "design": [
+        971,
+        971
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "variable": "imgImage83",
+      "section": "639:332",
+      "path": "assets/images/shop-03-image83.png",
+      "node": "639:342",
+      "role": "Shop product 03",
+      "design": [
+        971,
+        971
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "variable": "imgImage205",
+      "section": "639:332",
+      "path": "assets/images/shop-04-image205.png",
+      "node": "639:344",
+      "role": "Shop product 04",
+      "design": [
+        960,
+        1200
+      ],
+      "source": [
+        960,
+        1200
+      ]
+    },
+    {
+      "variable": "imgImage206",
+      "section": "639:332",
+      "path": "assets/images/shop-05-image206.png",
+      "node": "639:346",
+      "role": "Shop product 05",
+      "design": [
+        860,
+        1075
+      ],
+      "source": [
+        960,
+        1200
+      ]
+    },
+    {
+      "variable": "imgImage204",
+      "section": "639:332",
+      "path": "assets/images/shop-06-image204.png",
+      "node": "639:348",
+      "role": "Shop product 06",
+      "design": [
+        957,
+        373
+      ],
+      "source": [
+        960,
+        1200
+      ]
+    },
+    {
+      "variable": "imgImage229",
+      "section": "639:332",
+      "path": "assets/images/shop-07-image229.png",
+      "node": "639:603",
+      "role": "Shop product 07",
+      "design": [
+        946,
+        946
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "variable": "imgImage230",
+      "section": "639:332",
+      "path": "assets/images/shop-08-image230.png",
+      "node": "639:609",
+      "role": "Shop product 08",
+      "design": [
+        765,
+        765
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "variable": "imgImage231",
+      "section": "639:332",
+      "path": "assets/images/shop-09-image231.png",
+      "node": "639:612",
+      "role": "Shop product 09",
+      "design": [
+        840,
+        840
+      ],
+      "source": [
+        490,
+        490
+      ]
+    },
+    {
+      "node": "640:631",
+      "path": "assets/images/about-dress.png",
+      "source": [
+        939,
+        1024
+      ]
+    },
+    {
+      "node": "639:414",
+      "path": "assets/images/maison-store.png",
+      "source": [
+        671,
+        1024
+      ]
+    },
+    {
+      "node": "639:423",
+      "path": "assets/images/popup-store.png",
+      "source": [
+        710,
+        1024
+      ]
+    },
+    {
+      "node": "639:385",
+      "path": "assets/images/essential-dancer.png",
+      "source": [
+        2667,
+        3334
+      ]
+    },
+    {
+      "node": "639:387",
+      "path": "assets/images/essential-boot.png",
+      "source": [
+        1086,
+        1449
+      ]
+    },
+    {
+      "node": "639:392",
+      "path": "assets/images/essential-sandal.png",
+      "source": [
+        768,
+        1024
+      ]
+    },
+    {
+      "node": "639:394",
+      "path": "assets/images/essential-black.png",
+      "source": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "node": "639:395",
+      "path": "assets/images/essential-pink.png",
+      "source": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "node": "639:396",
+      "path": "assets/images/essential-red.png",
+      "source": [
+        1086,
+        1448
+      ]
+    },
+    {
+      "node": "639:450",
+      "path": "assets/images/ballet-ellipse.png",
+      "source": [
+        956,
+        1288
+      ]
+    },
+    {
+      "node": "639:440",
+      "path": "assets/images/ballet-video-poster.png",
+      "role": "Original poster image supplied by Figma for the VIDEO fill",
+      "source": [
+        1280,
+        720
+      ],
+      "mediaType": "video-poster",
+      "videoSourceAvailable": false,
+      "note": "Figma APIs exposed a still poster but no playable video URL. This is not a screenshot of the composed design."
+    },
+    {
+      "node": "652:986",
+      "section": "639:460",
+      "path": "assets/images/savoir-atelier-back.png",
+      "role": "Savoir Faire atelier back photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:989",
+      "section": "639:460",
+      "path": "assets/images/savoir-atelier-middle.png",
+      "role": "Savoir Faire atelier middle photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "652:980",
+      "section": "639:460",
+      "path": "assets/images/savoir-atelier-front.png",
+      "role": "Savoir Faire atelier front photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:998",
+      "section": "639:460",
+      "path": "assets/images/savoir-making-back.png",
+      "role": "Savoir Faire making back photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:995",
+      "section": "639:460",
+      "path": "assets/images/savoir-making-middle.png",
+      "role": "Savoir Faire making middle photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:992",
+      "section": "639:460",
+      "path": "assets/images/savoir-making-front.png",
+      "role": "Savoir Faire making front photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:1007",
+      "section": "639:460",
+      "path": "assets/images/savoir-materials-back.png",
+      "role": "Savoir Faire materials back photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:1004",
+      "section": "639:460",
+      "path": "assets/images/savoir-materials-middle.png",
+      "role": "Savoir Faire materials middle photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "653:1001",
+      "section": "639:460",
+      "path": "assets/images/savoir-materials-front.png",
+      "role": "Savoir Faire materials front photo",
+      "source": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "node": "169:166",
+      "section": "639:466",
+      "path": "assets/images/footer-instagram.svg",
+      "role": "Footer Instagram icon",
+      "source": [
+        30,
+        30
+      ]
+    },
+    {
+      "node": "186:2275",
+      "section": "639:466",
+      "path": "assets/images/footer-kakao.svg",
+      "role": "Footer Kakao icon",
+      "source": [
+        30,
+        30
+      ]
+    },
+    {
+      "node": "186:2273",
+      "section": "639:466",
+      "path": "assets/images/footer-facebook.svg",
+      "role": "Footer Facebook icon",
+      "source": [
+        30,
+        30
+      ]
+    }
+  ],
+  "derivedAssets": [
+    {
+      "node": "640:631",
+      "path": "assets/images/about-dress-hq.png",
+      "derivedFrom": "assets/images/about-dress-original.png",
+      "source": [2542, 2772],
+      "originalSource": [1201, 1310],
+      "sourceType": "figma-export-2x",
+      "created": "2026-11-11",
+      "role": "About dress and mannequin; original Figma crop, transparency and image filters preserved. Export resolution exceeds native source detail; no AI regeneration.",
+      "originalImageHash": "2faa8431cece5f013e3ca9fb76ecec2316de3824",
+      "previousAsset": "assets/images/about-dress.png"
+    },
+    {
+      "node": "639:423",
+      "path": "assets/images/popup-store-pop-up-v2.png",
+      "derivedFrom": "assets/images/popup-store.png",
+      "source": [
+        1044,
+        1506
+      ],
+      "sourceType": "imagegen-edit",
+      "tool": "image_gen",
+      "created": "2026-11-10",
+      "prompt": "assets/images/popup-store-pop-up-v2.prompt.txt",
+      "role": "Pop-up window display edit; original Figma photograph retained",
+      "supersededBy": "assets/images/popup-store-pop-up-v4.png"
+    },
+    {
+      "node": "639:423",
+      "path": "assets/images/popup-store-pop-up-v4.png",
+      "source": [
+        1086,
+        1448
+      ],
+      "sourceType": "imagegen-generated",
+      "tool": "image_gen",
+      "created": "2026-11-10",
+      "prompt": "assets/images/popup-store-pop-up-v4.prompt.txt",
+      "role": "New custom Repetto-inspired pop-up pavilion concept, not documentary store photography",
+      "referenceSources": [
+        "https://www.harbourcity.com.hk/en/article/repetto-boutique-grand-opening/",
+        "https://repetto.com/en/pages/vivre-lexperience-repetto"
+      ]
+    }
+  ]
+}
