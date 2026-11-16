@@ -18,3 +18,7 @@ export function renderShoeImage(original, alt, loading = 'lazy') {
   const mask = source ? `--shoe-frame-mask:url('${maskUrl}');` : '';
   return `<span class="shoe-photo" style="--shoe-ratio:${canvasWidth / canvasHeight};${mask}"><img src="./assets/images/${file}" alt="${alt}" width="${width}" height="${height}" loading="${loading}" decoding="async" draggable="false" style="width:${fitWidth}%;height:${fitHeight}%;left:${left}%;top:${top}%" /></span>`;
 }
+
+export function renderShoeColorPreview(original, alt) {
+  return `<span class="shoe-color-preview" data-shoe-colors="${original}">${renderShoeImage(original, alt)}</span>`;
+}

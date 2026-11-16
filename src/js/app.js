@@ -3,7 +3,7 @@ import { renderSavoirFaire, initSavoirFaire } from './savoir.js';
 import { renderBrandNews } from './news.js';
 import { renderFooter } from './footer.js';
 import { initShopCarousel } from './shop.js';
-import { renderShoeImage } from './shoe-images.js';
+import { renderShoeImage, renderShoeColorPreview } from './shoe-images.js';
 import { initHeroCarousel } from './hero-motion.js';
 import { initSiteIntro } from './site-intro.js';
 
@@ -57,7 +57,7 @@ document.querySelector('#app').innerHTML = `
         <div class="shop-intro"><p lang="ko">프랑스 장인의 섬세한 손끝에서 탄생한 레페토의 발레 슈즈<br /> 무대의 우아함을 일상으로, 당신의 걸음에 가벼움을 더합니다</p><a class="ring-link about-link" href="#about"><span class="ring" aria-hidden="true"></span>ABOUT US</a></div>
         <button class="shop-count slide-counter" type="button" aria-label="다음 슈즈 보기"><span class="counter-value" id="shop-current">1</span><span class="counter-divider" aria-hidden="true">/</span><span class="shop-count-total counter-value">${products.length}</span></button>
         <div class="shop-viewport" tabindex="0" role="region" aria-roledescription="carousel" aria-label="슈즈 컬렉션. 드래그하거나 방향키로 탐색">
-          <div class="shop-track">${products.map(([src, alt, x, y, width, height], i) => `<div class="product ${i === 1 ? 'is-active' : ''}" data-product="${i}" role="group" aria-roledescription="slide" aria-label="${i + 1} / ${products.length}: ${products[i][6]}"><span class="product-image ${i === 5 ? 'product-image-cropped' : ''}" style="--ix:${x};--iy:${y};--iw:${width};--ih:${height}">${renderShoeImage(src, alt)}</span></div>`).join('')}</div>
+          <div class="shop-track">${products.map(([src, alt, x, y, width, height], i) => `<div class="product ${i === 1 ? 'is-active' : ''}" data-product="${i}" role="group" aria-roledescription="slide" aria-label="${i + 1} / ${products.length}: ${products[i][6]}"><span class="product-image ${i === 5 ? 'product-image-cropped' : ''}" style="--ix:${x};--iy:${y};--iw:${width};--ih:${height}">${renderShoeColorPreview(src, alt)}</span></div>`).join('')}</div>
         </div>
         <p class="shop-description" lang="en">${products.map(product => `<span class="shop-product-name">${product[6]}</span>`).join(' · ')}</p>
         <button class="ring-link shopping-link" type="button"><span class="ring" aria-hidden="true"></span><span>GO<br />SHOPPING</span></button>
@@ -76,7 +76,7 @@ document.querySelector('#app').innerHTML = `
     <nav aria-label="전체 메뉴">${menuItems.map(([label, href], i) => `<a href="${href}"><span class="menu-index">0${i + 1}</span>${label}<span class="menu-arrow" aria-hidden="true">↗</span></a>`).join('')}</nav>
     <p class="menu-signature">Movement, grace & freedom.</p>
   </dialog>
-  <dialog class="collection-dialog" aria-labelledby="collection-title"><div class="collection-header"><h2 id="collection-title">The Collection</h2><button class="dialog-close" type="button" aria-label="컬렉션 닫기">CLOSE <span aria-hidden="true">×</span></button></div><div class="collection-grid">${products.map(([src, alt], i) => `<button type="button" class="collection-item" data-zoom="${i}" aria-label="${alt} 확대"><span class="collection-photo">${renderShoeImage(src, alt)}</span><span class="collection-item-label">REPETTO — ${String(i + 1).padStart(2, '0')}</span></button>`).join('')}</div></dialog>
+  <dialog class="collection-dialog" aria-labelledby="collection-title"><div class="collection-header"><h2 id="collection-title">The Collection</h2><button class="dialog-close" type="button" aria-label="컬렉션 닫기">CLOSE <span aria-hidden="true">×</span></button></div><div class="collection-grid">${products.map(([src, alt], i) => `<button type="button" class="collection-item" data-zoom="${i}" aria-label="${alt} 확대"><span class="collection-photo">${renderShoeImage(src, alt)}</span><span class="collection-item-label">${products[i][6]}</span></button>`).join('')}</div></dialog>
   <dialog class="image-dialog" aria-label="슈즈 상세 이미지"><button class="dialog-close" type="button" aria-label="상세 이미지 닫기">CLOSE <span aria-hidden="true">×</span></button><div class="image-dialog-photo"></div><div class="image-dialog-controls"><button type="button" data-zoom-prev aria-label="이전 슈즈">←</button><span aria-live="polite"></span><button type="button" data-zoom-next aria-label="다음 슈즈">→</button></div></dialog>
 `;
 

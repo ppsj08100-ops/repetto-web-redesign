@@ -1,0 +1,800 @@
+{
+  "verified": "2026-11-16",
+  "processing": "Official native photos. Connected neutral background removed; floor and enclosed under-arch regions cleared along the actual outsole contour. Alpha edges softened and photos registered with uniform scaling to existing subject width and bottom. No recoloring, filters or generative changes. Final alpha contours of the white Camille sole and black Zizi arch were cleaned; the Dance Sneakers white rubber sole was restored from its original photograph.",
+  "products": [
+    {
+      "index": 1,
+      "name": "SOPHIA",
+      "nameKo": "소피아",
+      "original": "shop-01-image84.png",
+      "baseColor": "Light pink",
+      "baseSku": "RP-V4109VE899",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=2842",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "RP-V4109VE410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=2841",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V4109VE410.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-01-black.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              73,
+              107,
+              418,
+              406
+            ],
+            "sourceSubjectBounds": [
+              123,
+              214,
+              799,
+              743
+            ],
+            "uniformScale": 1.02071,
+            "outputOffset": [
+              146,
+              272
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-01-black.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        },
+        {
+          "color": "gold",
+          "colorLabel": "Gold",
+          "sku": "RP-V4109AGM418",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3053",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V4109AGM418.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-01-gold.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              73,
+              107,
+              418,
+              406
+            ],
+            "sourceSubjectBounds": [
+              103,
+              193,
+              793,
+              752
+            ],
+            "uniformScale": 1.0,
+            "outputOffset": [
+              146,
+              253
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-01-gold.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "CENDRILLON",
+      "nameKo": "산드리옹",
+      "original": "shop-02-image82.png",
+      "baseColor": "Cream",
+      "baseSku": null,
+      "baseProductUrl": "https://www.repetto.kr/product/list.asp?no=371",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "RP-V086V410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=1033",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V086V410.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-02-black.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              54,
+              301,
+              432,
+              413
+            ],
+            "sourceSubjectBounds": [
+              87,
+              525,
+              798,
+              735
+            ],
+            "uniformScale": 1.063291,
+            "outputOffset": [
+              108,
+              603
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-02-black.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        },
+        {
+          "color": "pink",
+          "colorLabel": "Light pink",
+          "sku": "RP-V086V899",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=1036",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V086V899.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-02-pink.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              54,
+              301,
+              432,
+              413
+            ],
+            "sourceSubjectBounds": [
+              89,
+              582,
+              806,
+              788
+            ],
+            "uniformScale": 1.054393,
+            "outputOffset": [
+              108,
+              609
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-02-pink.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        },
+        {
+          "color": "red",
+          "colorLabel": "Flamme red",
+          "sku": "RP-V086V550",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=1034",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V086V550.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-02-red.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              54,
+              301,
+              432,
+              413
+            ],
+            "sourceSubjectBounds": [
+              87,
+              532,
+              789,
+              732
+            ],
+            "uniformScale": 1.076923,
+            "outputOffset": [
+              108,
+              611
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-02-red.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "note": "Existing cream side-profile image matches Cendrillon; exact old cream SKU not exposed by current Korean catalog. Alternate V086 patent colors verified."
+    },
+    {
+      "index": 3,
+      "name": "ROSE PERLE",
+      "nameKo": "로즈 펄",
+      "original": "shop-03-image83.png",
+      "baseColor": "Black",
+      "baseSku": "RP-V4255V410",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3470",
+      "variants": [
+        {
+          "color": "red",
+          "colorLabel": "Flamme red",
+          "sku": "V4255V-550",
+          "productUrl": "https://www.repetto.com.cn/Mary-Jane",
+          "sourceUrl": "https://repetto.com/cdn/shop/files/V4255V-550_P1.jpg",
+          "sourceDimensions": [
+            2000,
+            2500
+          ],
+          "localFile": "assets/images/colorways/shop-03-red.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              53,
+              247,
+              435,
+              412
+            ],
+            "sourceSubjectBounds": [
+              150,
+              917,
+              1231,
+              1394
+            ],
+            "uniformScale": 0.706753,
+            "outputOffset": [
+              106,
+              487
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-03-red.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "note": "Same Rose Perle model, official red patent variant from Repetto France."
+    },
+    {
+      "index": 4,
+      "name": "CAMILLE",
+      "nameKo": "까미유",
+      "original": "shop-04-image205.png",
+      "baseColor": "Flamme red",
+      "baseSku": "RP-V511V550",
+      "baseProductUrl": "https://www.repetto.kr/news/view.asp?no=60",
+      "variants": [
+        {
+          "color": "pink",
+          "colorLabel": "Light pink",
+          "sku": "RP-V511V899",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3125",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V511V899.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-04-pink.webp",
+          "registration": {
+            "originalCanvas": [
+              960,
+              1200
+            ],
+            "outputCanvas": [
+              960,
+              1200
+            ],
+            "originalSubjectBounds": [
+              109,
+              668,
+              855,
+              964
+            ],
+            "sourceSubjectBounds": [
+              73,
+              550,
+              789,
+              832
+            ],
+            "uniformScale": 1.041899,
+            "outputOffset": [
+              109,
+              670
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-04-pink.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        },
+        {
+          "color": "white",
+          "colorLabel": "White",
+          "sku": "RP-V511V050",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=1110",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V511V050.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-04-white.webp",
+          "registration": {
+            "originalCanvas": [
+              960,
+              1200
+            ],
+            "outputCanvas": [
+              960,
+              1200
+            ],
+            "originalSubjectBounds": [
+              109,
+              668,
+              855,
+              964
+            ],
+            "sourceSubjectBounds": [
+              90,
+              459,
+              804,
+              735
+            ],
+            "uniformScale": 1.044818,
+            "outputOffset": [
+              109,
+              676
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-04-white.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        },
+        {
+          "color": "navy",
+          "colorLabel": "Navy",
+          "sku": "RP-V511V851",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=1116",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V511V851.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-04-navy.webp",
+          "registration": {
+            "originalCanvas": [
+              960,
+              1200
+            ],
+            "outputCanvas": [
+              960,
+              1200
+            ],
+            "originalSubjectBounds": [
+              109,
+              668,
+              855,
+              964
+            ],
+            "sourceSubjectBounds": [
+              89,
+              446,
+              804,
+              733
+            ],
+            "uniformScale": 1.043357,
+            "outputOffset": [
+              109,
+              665
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-04-navy.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "note": "Official 2018 brand article explicitly identifies V511V550 as CAMILLE red. Alternate colors use V511, not V080 CAMILLE GOMME/LOU."
+    },
+    {
+      "index": 5,
+      "name": "PHOEBE METALLIC BOW ANKLE BOOTS",
+      "nameKo": "포에베 메탈릭 보우 앵클 부츠",
+      "original": "shop-05-image206.png",
+      "baseColor": "Brown",
+      "baseSku": "V4214VED-1334",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3672",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "RP-V4214VED410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3672",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V4214VED410.jpg",
+          "width": 894,
+          "height": 894,
+          "orientation": "right",
+          "verified": true,
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-05-black.webp",
+          "registration": {
+            "originalCanvas": [
+              960,
+              1200
+            ],
+            "outputCanvas": [
+              960,
+              1200
+            ],
+            "originalSubjectBounds": [
+              114,
+              303,
+              848,
+              959
+            ],
+            "sourceSubjectBounds": [
+              176,
+              274,
+              719,
+              752
+            ],
+            "uniformScale": 1.35175,
+            "outputOffset": [
+              114,
+              313
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-05-black.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "note": "Brown base source is official France V4214VED-1334-P1.jpg already in repo. Black same-model V4214VED410 verified in Korean official store, distinct from old V690 PHOEBE."
+    },
+    {
+      "index": 6,
+      "name": "ZIZI GOMME",
+      "nameKo": "지지 곰므",
+      "baseColor": "Beige Teddybear",
+      "baseSku": "V014VAVL-1521",
+      "baseProductUrl": "https://repetto.com/en/products/zizi-oxford-shoes-suede-leather-beige-teddy-bear-v014vavl-1521",
+      "note": "Same Zizi rubber-sole model family; nappa black vs suede beige changes material; base image strongly matches current old silhouette but new HQ toe/angle differs slightly.",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "V014A410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=2556",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V014A410.jpg",
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-06-black.webp",
+          "registration": {
+            "originalCanvas": [
+              960,
+              1200
+            ],
+            "outputCanvas": [
+              960,
+              1200
+            ],
+            "originalSubjectBounds": [
+              116,
+              683,
+              845,
+              954
+            ],
+            "sourceSubjectBounds": [
+              92,
+              467,
+              802,
+              747
+            ],
+            "uniformScale": 1.026761,
+            "outputOffset": [
+              116,
+              667
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-06-black.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "original": "shop-06-image204.png"
+    },
+    {
+      "index": 7,
+      "name": "CAMILLE MULES",
+      "nameKo": "까미유 뮬",
+      "baseColor": "Navy Blue / Classic Blue",
+      "baseSku": "V4183JEANEYLT851",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3515",
+      "note": "Official same Camille mule model but black patent has no denim eyelets; visually same side-profile direction.",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "V4183V410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3086",
+          "sourceUrl": "https://www.repetto.kr/data/productImages/a/5/RP-V4183V410.jpg",
+          "sourceDimensions": [
+            894,
+            894
+          ],
+          "localFile": "assets/images/colorways/shop-07-black.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              55,
+              308,
+              434,
+              412
+            ],
+            "sourceSubjectBounds": [
+              103,
+              589,
+              788,
+              752
+            ],
+            "uniformScale": 1.106569,
+            "outputOffset": [
+              110,
+              644
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-07-black.png",
+          "registeredProcessing": "Official patent reflection/material projected into original fixed shape; original eyelet annuli,bow and seam landmarks preserved."
+        }
+      ],
+      "original": "shop-07-image229.png"
+    },
+    {
+      "index": 8,
+      "name": "DANCE SNEAKERS",
+      "nameKo": "댄스 스니커즈",
+      "baseColor": "White",
+      "baseSku": "V072R050",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=2649",
+      "note": "Exact same stretch-knit sneaker model, white sole retained. Also official Rose pink V072R001 ProductNo=2475 exists.",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "V072R410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=2267",
+          "sourceUrl": "https://repetto.com/cdn/shop/products/v072r-410-p1_3.jpg?v=1703253183",
+          "sourceDimensions": [
+            1800,
+            2250
+          ],
+          "localFile": "assets/images/colorways/shop-08-black.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              49,
+              301,
+              441,
+              462
+            ],
+            "sourceSubjectBounds": [
+              166,
+              958,
+              1245,
+              1410
+            ],
+            "uniformScale": 0.726599,
+            "outputOffset": [
+              98,
+              596
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-08-black.png",
+          "registeredProcessing": "Official black knit and elastic photograph RGB gently aligned to original fixed shape; original white rubber sole preserved."
+        }
+      ],
+      "original": "shop-08-image230.png"
+    },
+    {
+      "index": 9,
+      "name": "GENTIANE BOOTS",
+      "nameKo": "젠티안 부츠",
+      "baseColor": "Light Pink / Icon Pink",
+      "baseSku": "V4163TTCH899",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3031",
+      "note": "Exact model; black image is 1800x2250, fills much more of frame than pink current hq; must align independently by shoe bbox.",
+      "variants": [
+        {
+          "color": "black",
+          "colorLabel": "Black",
+          "sku": "V4163TTCH410",
+          "productUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3030",
+          "sourceUrl": "https://repetto.com/cdn/shop/products/v4163ttch-410-p1_1.jpg?v=1703264624",
+          "sourceDimensions": [
+            1800,
+            2250
+          ],
+          "localFile": "assets/images/colorways/shop-09-black.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              104,
+              111,
+              394,
+              409
+            ],
+            "sourceSubjectBounds": [
+              146,
+              276,
+              1240,
+              1410
+            ],
+            "uniformScale": 0.530165,
+            "outputOffset": [
+              208,
+              217
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-09-black.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "original": "shop-09-image231.png"
+    },
+    {
+      "index": 10,
+      "name": "LAURINE",
+      "nameKo": "로렌",
+      "baseColor": "Black",
+      "baseSku": "V4211MTD410 family (existing mesh photo V4211-x-P1)",
+      "baseProductUrl": "https://www.repetto.kr/product/view.asp?ProductNo=3240",
+      "note": "Official same Laurine pump color selector links black and Swan beige. Beige has opaque leather front, while existing black photo is mesh; do not claim simple recolor. Profile pose aligns closely.",
+      "variants": [
+        {
+          "color": "beige",
+          "colorLabel": "Swan beige",
+          "sku": "V4211VMTD1449",
+          "productUrl": "https://repetto.com/en/products/laurine-pumps-swan-beige-v4211vmtd-1449",
+          "sourceUrl": "https://repetto.com/cdn/shop/files/V4211VMTD-1449-P1.jpg?v=1719402736",
+          "sourceDimensions": [
+            2000,
+            2500
+          ],
+          "localFile": "assets/images/colorways/shop-10-beige.webp",
+          "registration": {
+            "originalCanvas": [
+              490,
+              490
+            ],
+            "outputCanvas": [
+              980,
+              980
+            ],
+            "originalSubjectBounds": [
+              55,
+              216,
+              434,
+              411
+            ],
+            "sourceSubjectBounds": [
+              167,
+              880,
+              1235,
+              1401
+            ],
+            "uniformScale": 0.709738,
+            "outputOffset": [
+              110,
+              452
+            ],
+            "method": "Preserve aspect ratio; match original subject width, center and bottom."
+          },
+          "registeredFile": "assets/images/colorways-fixed/shop-10-beige.png",
+          "registeredProcessing": "Actual official photograph RGB gently aligned to original coordinates with nearest-valid photo pixels at uncovered edges. Runtime applies the original alpha unchanged."
+        }
+      ],
+      "original": "shop-10-image232.png"
+    }
+  ],
+  "runtimeUsage": {
+    "mode": "Photographic material previews registered to the original fixed geometry.",
+    "currentImplementation": "src/js/shoe-colorways.js blends registered official-photo RGB from assets/images/colorways-fixed/ and applies one immutable original alpha mask.",
+    "constraint": "Keep original toe,heel,ribbon and outer outline fixed while reproducing the actual color/material response. No global RGB color tint.",
+    "specialMaterials": {
+      "7": "Real black patent reference reflection; original eyelet rings,bow and seam landmarks retained.",
+      "8": "Real black knit/elastic reference; original white rubber sole and exact outline retained."
+    }
+  }
+}

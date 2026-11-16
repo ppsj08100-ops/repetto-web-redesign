@@ -467,10 +467,27 @@ button:focus-visible,a:focus-visible,[tabindex]:focus-visible {
   max-width:none;
   object-fit:fill
 }
+.shoe-color-preview {
+  display:block;
+  position:relative;
+  width:100%;
+  height:100%
+}
+.shoe-color-surface {
+  display:block;
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  visibility:hidden;
+  pointer-events:none
+}
+.shoe-color-preview.is-previewing>.shoe-color-surface { visibility:visible; }
+.shoe-color-preview.is-previewing>.shoe-photo { visibility:hidden; }
 .product-image-cropped {
   overflow:hidden
 }
-.product-image-cropped>.shoe-photo {
+.product-image-cropped>.shoe-photo,.product-image-cropped>.shoe-color-preview {
   position:absolute;
   top:-165.51%;
   height:320.86%;
@@ -517,7 +534,7 @@ button:focus-visible,a:focus-visible,[tabindex]:focus-visible {
 .drag-cursor-text {
   font:500 15px / 1 var(--font-poppins);
   letter-spacing:.07em;
-  color:var(--ink);
+  color:var(--accent);
   opacity:0;
   transition:opacity .2s cubic-bezier(.25,.76,.56,.91)
 }

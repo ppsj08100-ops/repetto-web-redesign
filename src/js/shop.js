@@ -1,3 +1,5 @@
+import { createShoeColorPreview } from './shoe-colorways.js';
+
 const modulo = (value, length) => (value % length + length) % length;
 
 export function initShopCarousel() {
@@ -7,6 +9,7 @@ export function initShopCarousel() {
   const count = originals.length;
   const number = document.querySelector('#shop-current');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const colorPreview = createShoeColorPreview(reducedMotion);
   const finePointer = matchMedia('(min-width: 769px) and (hover: hover) and (pointer: fine)');
   const cursor = document.querySelector('.drag-cursor');
   const ringPosition = cursor.querySelector('.drag-cursor-ring-position');
@@ -30,11 +33,14 @@ export function initShopCarousel() {
   let suppressClick = false;
   let pointer = null;
   let hasPointer = false;
+  let hovered = false;
+  let hoveredSlide = null;
+  let windowActive = true;
 
   function stopAutoplay() { clearTimeout(autoplayTimer); }
   function scheduleAutoplay() {
     stopAutoplay();
-    if (drag || reducedMotion.matches || document.hidden || viewport.matches(':focus-visible') || document.querySelector('dialog[open]')) return;
+    if (drag || hovered || !windowActive || reducedMotion.matches || document.hidden || viewport.matches(':focus-visible') || document.querySelector('dialog[open]')) return;
     autoplayTimer = setTimeout(() => {
       if (!document.querySelector('dialog[open]')) goTo(physical + 1);
     }, 2200);
@@ -59,10 +65,13 @@ export function initShopCarousel() {
       translate(restPosition(), true);
     }
     updateStatus();
+    updateCursorVisibility();
     scheduleAutoplay();
   }
   function goTo(next) {
     stopAutoplay();
+    colorPreview.clear();
+    hoveredSlide = null;
     clearTimeout(settleTimer);
     physical = Math.max(0, Math.min(slides.length - 1, next));
     updateStatus();
@@ -80,6 +89,7 @@ export function initShopCarousel() {
     clearTimeout(settleTimer);
     translate(restPosition(), true);
     updateStatus();
+    updateCursorVisibility();
     scheduleAutoplay();
   }
   track.addEventListener('transitionend', event => {
@@ -100,6 +110,8 @@ export function initShopCarousel() {
     const x = new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
     translate(x, true);
     drag = { id: event.pointerId, x: event.clientX, y: event.clientY, translate: x, time: performance.now(), axis: null, moved: false };
+    colorPreview.clear();
+    hoveredSlide = null;
     suppressClick = false;
     viewport.classList.add('is-dragging');
   });
@@ -142,11 +154,27 @@ export function initShopCarousel() {
     suppressClick = false;
   }, true);
 
-  function hideCursor() { cursor.classList.remove('is-visible'); }
+  function hideCursor() {
+    cursor.classList.remove('is-visible');
+    const wasHovered = hovered;
+    hovered = false;
+    hoveredSlide = null;
+    colorPreview.clear();
+    if (wasHovered) scheduleAutoplay();
+  }
   function updateCursorVisibility() {
-    if (!finePointer.matches || !pointer) { hideCursor(); return; }
+    if (!finePointer.matches || !pointer || !windowActive || document.hidden || document.querySelector('dialog[open]')) { hideCursor(); return; }
     const target = document.elementFromPoint(pointer.x, pointer.y);
-    cursor.classList.toggle('is-visible', Boolean(target && viewport.contains(target)));
+    const inside = Boolean(target && viewport.contains(target));
+    if (!inside) { hideCursor(); return; }
+    hovered = true;
+    stopAutoplay();
+    cursor.classList.add('is-visible');
+    const slide = drag ? null : target.closest('.product');
+    if (slide !== hoveredSlide) {
+      hoveredSlide = slide;
+      colorPreview.show(slide);
+    }
   }
   function moveCursor(event) {
     if (event.pointerType !== 'mouse' || !finePointer.matches) { hideCursor(); return; }
@@ -165,18 +193,27 @@ export function initShopCarousel() {
   viewport.addEventListener('pointerenter', moveCursor);
   viewport.addEventListener('pointerleave', hideCursor);
   window.addEventListener('scroll', updateCursorVisibility, { passive: true });
-  window.addEventListener('blur', () => { hideCursor(); stopAutoplay(); });
-  window.addEventListener('focus', scheduleAutoplay);
+  window.addEventListener('blur', () => { windowActive = false; hideCursor(); stopAutoplay(); });
+  window.addEventListener('focus', () => { windowActive = true; updateCursorVisibility(); scheduleAutoplay(); });
   document.documentElement.addEventListener('pointerleave', hideCursor);
   viewport.addEventListener('focusin', () => { if (viewport.matches(':focus-visible')) { hideCursor(); stopAutoplay(); } });
   viewport.addEventListener('focusout', () => queueMicrotask(scheduleAutoplay));
-  document.querySelectorAll('dialog').forEach(dialog => dialog.addEventListener('close', scheduleAutoplay));
+  const dialogs = document.querySelectorAll('dialog');
+  const dialogObserver = new MutationObserver(() => { updateCursorVisibility(); scheduleAutoplay(); });
+  dialogs.forEach(dialog => {
+    dialogObserver.observe(dialog, { attributes: true, attributeFilter: ['open'] });
+    dialog.addEventListener('close', () => { updateCursorVisibility(); scheduleAutoplay(); });
+  });
   finePointer.addEventListener('change', hideCursor);
   document.addEventListener('visibilitychange', () => {
     hideCursor();
     scheduleAutoplay();
   });
-  reducedMotion.addEventListener('change', () => { settle(); });
+  reducedMotion.addEventListener('change', () => {
+    colorPreview.clear();
+    hoveredSlide = null;
+    settle();
+  });
   new ResizeObserver(resize).observe(viewport);
   resize();
 }
